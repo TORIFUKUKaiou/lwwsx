@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://weather.livedoor.com/forecast/webservice/json/v1?city=400030"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"pinpointLocations\":[{\"link\":\"http://weather.livedoor.com/area/forecast/4020400\",\"name\":\"\\u76f4\\u65b9\\u5e02\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4020500\",\"name\":\"\\u98ef\\u585a\\u5e02\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4020600\",\"name\":\"\\u7530\\u5ddd\\u5e02\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4022600\",\"name\":\"\\u5bae\\u82e5\\u5e02\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4022700\",\"name\":\"\\u5609\\u9ebb\\u5e02\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4040100\",\"name\":\"\\u5c0f\\u7af9\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4040200\",\"name\":\"\\u978d\\u624b\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4042100\",\"name\":\"\\u6842\\u5ddd\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4060100\",\"name\":\"\\u9999\\u6625\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4060200\",\"name\":\"\\u6dfb\\u7530\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4060400\",\"name\":\"\\u7cf8\\u7530\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4060500\",\"name\":\"\\u5ddd\\u5d0e\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4060800\",\"name\":\"\\u5927\\u4efb\\u753a\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4060900\",\"name\":\"\\u8d64\\u6751\"},{\"link\":\"http://weather.livedoor.com/area/forecast/4061000\",\"name\":\"\\u798f\\u667a\\u753a\"}],\"link\":\"http://weather.livedoor.com/area/forecast/400030\",\"forecasts\":[{\"dateLabel\":\"\\u4eca\\u65e5\",\"telop\":\"\\u66c7\\u308a\",\"date\":\"2019-12-19\",\"temperature\":{\"min\":null,\"max\":null},\"image\":{\"width\":50,\"url\":\"http://weather.livedoor.com/img/icon/8.gif\",\"title\":\"\\u66c7\\u308a\",\"height\":31}},{\"dateLabel\":\"\\u660e\\u65e5\",\"telop\":\"\\u6674\\u306e\\u3061\\u66c7\",\"date\":\"2019-12-20\",\"temperature\":{\"min\":{\"celsius\":\"4\",\"fahrenheit\":\"39.2\"},\"max\":{\"celsius\":\"11\",\"fahrenheit\":\"51.8\"}},\"image\":{\"width\":50,\"url\":\"http://weather.livedoor.com/img/icon/5.gif\",\"title\":\"\\u6674\\u306e\\u3061\\u66c7\",\"height\":31}},{\"dateLabel\":\"\\u660e\\u5f8c\\u65e5\",\"telop\":\"\\u66c7\\u308a\",\"date\":\"2019-12-21\",\"temperature\":{\"min\":null,\"max\":null},\"image\":{\"width\":50,\"url\":\"http://weather.livedoor.com/img/icon/8.gif\",\"title\":\"\\u66c7\\u308a\",\"height\":31}}],\"location\":{\"city\":\"\\u98ef\\u585a\",\"area\":\"\\u4e5d\\u5dde\",\"prefecture\":\"\\u798f\\u5ca1\\u770c\"},\"publicTime\":\"2019-12-19T17:00:00\\u002b0900\",\"copyright\":{\"provider\":[{\"link\":\"http://tenki.jp/\",\"name\":\"\\u65e5\\u672c\\u6c17\\u8c61\\u5354\\u4f1a\"}],\"link\":\"http://weather.livedoor.com/\",\"title\":\"(C) LINE Corporation\",\"image\":{\"width\":118,\"link\":\"http://weather.livedoor.com/\",\"url\":\"http://weather.livedoor.com/img/cmn/livedoor.gif\",\"title\":\"livedoor \\u5929\\u6c17\\u60c5\\u5831\",\"height\":26}},\"title\":\"\\u798f\\u5ca1\\u770c \\u98ef\\u585a \\u306e\\u5929\\u6c17\",\"description\":{\"text\":\"I Was Born To Love Elixir! We are the Alchemists, my friends!\",\"publicTime\":\"2019-12-19T16:31:00\\u002b0900\"}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Thu, 19 Dec 2019 12:06:33 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=3",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Set-Cookie": "ldsuid=CoIujF37Z8kyD0L7nDw7Ag==; expires=Wed, 18-Mar-20 12:06:33 GMT; path=/"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

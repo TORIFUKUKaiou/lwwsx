@@ -154,17 +154,6 @@ defmodule Lwwsx do
        ],
        "publicTime" => "2019-12-07T17:00:00+0900",
        "title" => "福岡県 飯塚 の天気"
-      },
-      %{
-       "Connection" => "keep-alive",
-       "Content-Type" => "application/json; charset=utf-8",
-       "Date" => "Sat, 07 Dec 2019 07:32:42 GMT",
-       "Keep-Alive" => "timeout=3",
-       "Server" => "nginx",
-       "Set-Cookie" => "ldsuid=CoIwjF3rVZpS70mgOxpmAg==; expires=Fri, 06-Mar-20 07:32:42 GMT; path=/",
-       "Transfer-Encoding" => "chunked",
-       "X-Content-Type-Options" => "nosniff",
-       "X-Frame-Options" => "DENY"
       }}
   """
   def current(city) do
@@ -184,7 +173,7 @@ defmodule Lwwsx do
   """
   def current_text(city) do
     case current(city) do
-      {:ok, body, _} -> {:ok, body |> Map.get("description") |> Map.get("text")}
+      {:ok, body} -> {:ok, body |> Map.get("description") |> Map.get("text")}
       {:error, body} -> {:error, body}
       _ -> {:error}
     end
@@ -486,6 +475,6 @@ defmodule Lwwsx do
       {"474020", "与那国島"}
     ]
 
-  defp _format_current({:ok, body}), do: {:ok, body}
+  defp _format_current({:ok, body, _}), do: {:ok, body}
   defp _format_current(error), do: error
 end

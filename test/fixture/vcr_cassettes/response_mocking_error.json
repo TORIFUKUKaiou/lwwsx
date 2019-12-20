@@ -1,0 +1,29 @@
+[
+    {
+      "request": {
+        "body": "",
+        "headers": [],
+        "method": "get",
+        "options": [],
+        "request_body": "",
+        "url": "http://weather.livedoor.com/forecast/webservice/json/v1?city=400030"
+      },
+      "response": {
+        "binary": false,
+        "body": "I Was Born To Love Elixir! We are the Alchemists, my friends!",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Thu, 19 Dec 2019 12:06:33 GMT",
+          "Content-Type": "application/json; charset=utf-8",
+          "Transfer-Encoding": "chunked",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=3",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "DENY",
+          "Set-Cookie": "ldsuid=CoIujF37Z8kyD0L7nDw7Ag==; expires=Wed, 18-Mar-20 12:06:33 GMT; path=/"
+        },
+        "status_code": 400,
+        "type": "ok"
+      }
+    }
+]
